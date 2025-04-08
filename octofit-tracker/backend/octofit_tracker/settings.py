@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'octofit_db',
         'HOST': 'localhost',
-        'PORT': 27017,  # Ensure this is an integer
+        'PORT': 27017,
     }
 }
 
