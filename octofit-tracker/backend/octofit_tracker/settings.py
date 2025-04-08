@@ -82,6 +82,10 @@ DATABASES = {
         'NAME': 'octofit_db',
         'HOST': 'localhost',
         'PORT': 27017,
+        'USER': '',  # Optional: Add if authentication is required
+        'PASSWORD': '',  # Optional: Add if authentication is required
+        'AUTH_SOURCE': '',  # Optional: Specify the authentication database
+        'AUTH_MECHANISM': '',  # Optional: Specify the authentication mechanism
     }
 }
 
